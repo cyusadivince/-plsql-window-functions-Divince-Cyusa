@@ -2,7 +2,7 @@
 # Overview
 #### Prime Suit is an online suit rental company that allows customers to borrow and return suits without physically visiting the shop.
 
-# Step 1: Problem Definition
+# Problem Definition
 
 ## Business Context:
 Prime Suit is a digital suit rental service that provides customers with a convenient way to borrow and return suits without the need to visit a physical store. Through the online platform, users can browse a wide selection of formal wear, choose the style and size that fits their needs, and have it delivered directly to their doorstep. Once the event or occasion is over, the suit can be easily returned using the company’s return process, saving customers both time and effort. This model combines the flexibility of e-commerce with the practicality of clothing rentals, making formal attire more accessible and hassle-free.
