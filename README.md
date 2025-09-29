@@ -15,22 +15,25 @@ Gain insights into customer borrowing frequency, identify the most popular suits
 
 ## Prime Suit Database Schema
 ### Customer Table
+```
 CREATE TABLE customers (
     customer_id   NUMBER PRIMARY KEY,
     name          VARCHAR2(40) NOT NULL,
-    region        VARCHAR2(50)
+    region        VARCHAR2(50),
+    phonenumber   NUMBER(15) 
 );
-
+```
 ### Suits Table
 
-CREATE TABLE suits (
+```CREATE TABLE suits (
     suit_id       NUMBER PRIMARY KEY,
     name          VARCHAR2(100) NOT NULL,
     category      VARCHAR2(50)
 );
-
+```
 ### Rentals Table 
 
+```
 CREATE TABLE rentals (
     rental_id     NUMBER PRIMARY KEY,
     customer_id   NUMBER REFERENCES customers(customer_id),
@@ -39,7 +42,7 @@ CREATE TABLE rentals (
     return_date   DATE,
     amount        NUMBER(10,2)
 );
-
+```
 Clarification about the tables I have used:
 
  #### 🧑‍💼Customers Table
