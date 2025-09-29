@@ -1,4 +1,7 @@
 # plsql-window-functions-Divince-Cyusa
+**Course:** INSY 8311 – Database Development with PL/SQL  
+**Instructor:** Eric Maniraguha – eric.maniraguha@auca.ac.rw  
+**ID:** 27516
 # Overview
 #### Prime Suit is an online suit rental company that allows customers to borrow and return suits without physically visiting the shop.
 
