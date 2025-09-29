@@ -117,7 +117,49 @@ FROM Rentals r
 JOIN Customers c ON r.customer_id = c.customer_id
 GROUP BY c.name;
 ```
+## Results Analysis
 
+#### 1. Descriptive – What happened?
+The most popular suits are spread across different categories (formal, business, wedding), with clear customer preferences visible in the rental frequency.
+Customer spending shows distinct segments: some customers rent frequently and spend more (top quartile), while others rent only once or twice (bottom quartile).
+Monthly revenue analysis shows a steady growth. Outliers like unusually high rental amounts may indicate premium suit rentals.
+
+#### 2. Diagnostic – Why did it happen?
+
+Higher revenue months correspond to special seasons/events (e.g., weddings, graduations), which increase demand for suits.
+Loyal customers in the top quartile are often from urban regions (like Kigali), suggesting regional influence on rental frequency.
+Lower-spending customers may rent less due to distance from service centers, price sensitivity, or fewer occasions needing formal wear.
+Suit categories influence rental amounts: wedding suits tend to cost more, raising the average rental fee.
+
+#### 3. Prescriptive – What next?
+
+Inventory Strategy: Keep more stock of high-demand suits (e.g., wedding suits before peak season) to avoid shortages.
+Customer Engagement: Reward top-quartile customers (loyal renters) with discounts or loyalty points to retain them.
+Regional Marketing: Run targeted promotions in regions with low rentals (like rural areas) to increase customer activity.
+
+
+## References
+
+1. TutorialsPoint – [SQL Aggregate & Window Functions](https://www.tutorialspoint.com/sql/sql-window-functions.htm)  
+2. Kaggle – [Customer Segmentation using SQL](https://www.kaggle.com/code)  
+3. FreeCodeCamp – [SQL Window Functions Guide](https://www.freecodecamp.org/news/sql-window-functions/)  
+4. Academic Paper: “Window Functions in OLAP Analytics” – [Link](https://www.sciencedirect.com/)  
+5. Stack Overflow Discussions – [SQL Window Functions Examples](https://stackoverflow.com/questions/tagged/sql-window-functions)  
+6. Oracle Live SQL – [Window Functions Examples](https://livesql.oracle.com/)  
+7. Oracle.com [Oracle](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/window-functions-usage.html)
+8. GeeksForGeeks [GeeksForGeeks](https://www.geeksforgeeks.org/plsql/window-functions-in-plsql/)
+9. PostgreSQL Official Documentation – [Window Functions](https://www.postgresql.org/docs/current/functions-window.html)  
+10. Oracle PL/SQL Documentation – [Analytic Functions](https://docs.oracle.com/cd/B28359_01/server.111/b28286/functions001.htm)  
+
+
+All sources are properly cited. Implementations and analysis represent original work. No AI-generated content was copied without attribution or adaptation.
+
+---
+## Academic Integrity Statement
+
+**Professional & Ethical Note:**  
+*"Whoever is faithful in very little is also faithful in much." – Luke 16:10*  
+As database professionals, uphold accuracy, confidentiality, and integrity. The reputation is built on consistent honesty, quality, and responsibility.
 
 
 
